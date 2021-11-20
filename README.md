@@ -2,9 +2,11 @@
 	<a href="https://gamebanana.com/gamefiles/15309" target="_blank"><img src="/art/FNF Logo.png" alt="Logo" width="658.5px" height="487.5px"></a>
 </p>
 
-### This is the repository for Friday Night Funkin: Mic'd Up, previously named FNF: EX Replayability, a non-profit modification of Friday Night Funkin'.
+### This is a recovered repository for Friday Night Funkin: Mic'd Up, previously named FNF: EX Replayability, a non-profit modification of Friday Night Funkin'.
 
 Support the original Newgrounds Build [here](https://www.newgrounds.com/portal/view/770371)!
+
+Original repository[Verwex's original](https://github.com/Verwex/Funkin-Mic-d-Up-SC)!
 
 Play the original build on the [Itch.io page](https://ninja-muffin24.itch.io/funkin)!
 
@@ -68,7 +70,7 @@ Go support the original repository for the game [here](https://github.com/ninjam
 	<a href="https://ninja-muffin24.itch.io/funkin"><img src="/art/preloaderArt.png" width"658.5px" height="369.75px"></a>
 </p>
 
-**This mod was made with love to Friday Night Funkin' and its community. Extra love to the team behind it. 💖**
+**Mic'd mod was made with love to Friday Night Funkin' and its community. Extra love to the team behind it. 💖**
 
 # Mods ([skip](#Compiling))
 
@@ -209,7 +211,7 @@ Desktop building can be a bit tedious. Each different version requires a differe
 
 # All done!
 You should have been able to compile the whole mod now! What can you do now? Well, you can mod to your heart's desire! Since this mod is open-source, the creator loves seeing what other talented artists and programmers can make!
-Special thanks to the amazing group of dedicated people that are making the original game amazing, and the modding team for making this mod possible!<!--And the person who fixed this README.md-->
+Special thanks to the amazing group of dedicated people that are making the original game amazing, and the modding team for making the Mic'd up mod possible!<!--And the person who fixed this README.md-->
 
 <p align="center">
 	💖💖
