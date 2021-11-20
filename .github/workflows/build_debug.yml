@@ -45,6 +45,12 @@ jobs:
           haxelib git systools https://github.com/haya3218/systools
           haxelib run lime rebuild systools linux
           haxelib install actuate
+          sudo apt-get update
+          sudo apt-get upgrade
+          sudo apt-get purge gcc-multilib
+          sudo apt-get install gcc-multilib
+          sudo apt-get purge g++-multilib
+          sudo apt-get install g++-multilib
           haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
           haxelib run lime rebuild extension-webm linux
           haxelib list
