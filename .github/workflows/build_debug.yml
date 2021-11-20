@@ -43,16 +43,16 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib run lime rebuild systools linux
           haxelib install actuate
-          haxelib install extension-webm
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          haxelib run lime rebuild extension-webm linux
           haxelib list
       - name: Create APIStuff
         uses: "finnp/create-file-action@master"
         env:
           FILE_NAME: "source/APIStuff.hx"
           FILE_DATA: "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}"
-      - name: Rebuild systools
-        run: haxelib run lime rebuild systools linux
       - name: Compile
         run: haxelib run lime build linux -debug
       - name: Archive
@@ -93,14 +93,14 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib run lime rebuild systools windows
           haxelib install actuate
-          haxelib install extension-webm
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          haxelib run lime rebuild extension-webm windows
           haxelib list
         shell: cmd
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
-      - name: Rebuild systools
-        run: haxelib run lime rebuild systools windows
       - name: Compile
         run: haxelib run lime build windows -debug
       - name: Archive
@@ -141,13 +141,13 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib run lime rebuild systools macos
           haxelib install actuate
-          haxelib install extension-webm
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          haxelib run lime rebuild extension-webm macos
           haxelib list
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
-      - name: Rebuild systools
-        run: haxelib run lime rebuild systools mac
       - name: Compile
         run: haxelib run lime build mac -debug
       - name: Archive
