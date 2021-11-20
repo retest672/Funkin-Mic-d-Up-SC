@@ -60,7 +60,6 @@ jobs:
         with:
           name: linuxBuild
           path: bin.tar.gz
-          retention-days: 1
   buildWindows:
     runs-on: windows-latest
     
@@ -107,7 +106,6 @@ jobs:
         with:
           name: windowsBuild
           path: bin.tar.gz
-          retention-days: 1
   buildMac:
     runs-on: macos-latest
 
@@ -153,4 +151,3 @@ jobs:
         with:
           name: macBuild
           path: bin.tar.gz
-          retention-days: 1
