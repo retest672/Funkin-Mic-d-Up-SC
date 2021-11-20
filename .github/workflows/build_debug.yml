@@ -48,11 +48,6 @@ jobs:
           haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
           haxelib run lime rebuild extension-webm linux
           haxelib list
-      - name: Create APIStuff
-        uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: "source/APIStuff.hx"
-          FILE_DATA: "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}"
       - name: Compile
         run: haxelib run lime build linux -debug
       - name: Archive
@@ -99,8 +94,6 @@ jobs:
           haxelib run lime rebuild extension-webm windows
           haxelib list
         shell: cmd
-      - name: Create APIStuff
-        run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: Compile
         run: haxelib run lime build windows -debug
       - name: Archive
@@ -146,8 +139,6 @@ jobs:
           haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
           haxelib run lime rebuild extension-webm macos
           haxelib list
-      - name: Create APIStuff
-        run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: Compile
         run: haxelib run lime build mac -debug
       - name: Archive
