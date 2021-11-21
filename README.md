@@ -6,7 +6,7 @@
 
 Support the original Newgrounds Build [here](https://www.newgrounds.com/portal/view/770371)!
 
-Original repository [Verwex's original](https://github.com/Verwex/Funkin-Mic-d-Up-SC)!
+[Original Repository](https://github.com/Verwex/Funkin-Mic-d-Up-SC)!
 
 Play the original build on the [Itch.io page](https://ninja-muffin24.itch.io/funkin)!
 
